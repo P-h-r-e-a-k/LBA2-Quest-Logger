@@ -1,0 +1,15 @@
+R:\Users\User\source\repos\LBA2 Quest Logger\bin\Release\files\Quests.xml
+R:\Users\User\source\repos\LBA2 Quest Logger\bin\Release\LBA2 Quest Logger.exe.config
+R:\Users\User\source\repos\LBA2 Quest Logger\bin\Release\LBA2 Quest Logger.exe
+R:\Users\User\source\repos\LBA2 Quest Logger\bin\Release\LBA2 Quest Logger.pdb
+R:\Users\User\source\repos\LBA2 Quest Logger\bin\Release\LBAMemoryModule.dll
+R:\Users\User\source\repos\LBA2 Quest Logger\bin\Release\LBAMemoryModule.pdb
+R:\Users\User\source\repos\LBA2 Quest Logger\obj\Release\LBA2 Quest Logger.csprojAssemblyReference.cache
+R:\Users\User\source\repos\LBA2 Quest Logger\obj\Release\LBA2_Quest_Logger.Form1.resources
+R:\Users\User\source\repos\LBA2 Quest Logger\obj\Release\LBA2_Quest_Logger.GetSubItem.resources
+R:\Users\User\source\repos\LBA2 Quest Logger\obj\Release\LBA2_Quest_Logger.Properties.Resources.resources
+R:\Users\User\source\repos\LBA2 Quest Logger\obj\Release\LBA2 Quest Logger.csproj.GenerateResource.cache
+R:\Users\User\source\repos\LBA2 Quest Logger\obj\Release\LBA2 Quest Logger.csproj.CoreCompileInputs.cache
+R:\Users\User\source\repos\LBA2 Quest Logger\obj\Release\LBA2 Quest Logger.csproj.CopyComplete
+R:\Users\User\source\repos\LBA2 Quest Logger\obj\Release\LBA2 Quest Logger.exe
+R:\Users\User\source\repos\LBA2 Quest Logger\obj\Release\LBA2 Quest Logger.pdb
