@@ -102,7 +102,7 @@ namespace LBA2_Quest_Logger
         private void addOrUpdateQuest(LBA2Quests quests)
         {
             if (0 == lvQuest.Items.Count)
-                addQuests(quests);
+                addQuestsToListView(quests);
             else
                 updateQuests(quests);
         }
@@ -116,15 +116,15 @@ namespace LBA2_Quest_Logger
                 }
         }
 
-        private void addQuests(LBA2Quests quests)
+        private void addQuestsToListView(LBA2Quests quests)
         {
             lvQuest.Items.Clear();
             
             for (int i = 0; i < quests.quests.Count(); i++) 
-                addQuest(quests.quests[i]);
+                addQuestToListView(quests.quests[i]);
         }
 
-        private void addQuest(LBA2Quest quest)
+        private void addQuestToListView(LBA2Quest quest)
         {
             ListViewItem lvi = new ListViewItem();
             lvi.Text = quest.memoryOffset.ToString("X2");
@@ -133,15 +133,15 @@ namespace LBA2_Quest_Logger
             lvQuest.Items.Add(lvi);
         }
 
-        private void addSubquests(LBA2Quest.Subquest[] sq)
+        private void addSubquestsToListView(LBA2Quest.Subquest[] sq)
         {
             lvSubquest.Items.Clear();
             if (null == sq) return;
             for (int i = 0; i < sq.Count(); i++)
-                addSubquest(sq[i]);
+                addSubquestToListView(sq[i]);
         }
 
-        private void addSubquest(LBA2Quest.Subquest sq)
+        private void addSubquestToListView(LBA2Quest.Subquest sq)
         {
             ListViewItem lvi = new ListViewItem();
             lvi.Text = sq.name;
@@ -159,8 +159,9 @@ namespace LBA2_Quest_Logger
                 return; //If nothing selected bail out
             }
 
-            addSubquests(((LBA2Quest)lvQuest.SelectedItems[0].Tag).subquests);
+            addSubquestsToListView(((LBA2Quest)lvQuest.SelectedItems[0].Tag).subquests);
             txtQuestDescription.Text = lvQuest.SelectedItems[0].SubItems[1].Text;
+            txtOffset.Text = lvQuest.SelectedItems[0].SubItems[0].Text;
         }
 
         private void lvSubquest_SelectedIndexChanged(object sender, EventArgs e)
@@ -299,7 +300,7 @@ namespace LBA2_Quest_Logger
         private bool ignoreItem(uint offset)
         {
             uint[] ignoreList = new uint[2];
-            ignoreList[0] = 0x57C93;
+            ignoreList[0] = 0x57C93; //Wizard peddler position
             ignoreList[1] = 0x57DE9; //Clovers
             return ignoreList.Contains(offset);
         }
@@ -388,6 +389,17 @@ namespace LBA2_Quest_Logger
                 MessageBox.Show("Doesn't exist");
                 quests.quests[2].subquests = addNewSubitem(quests.quests[2], ov);
             }
+        }
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            int questIndex = lvQuest.SelectedItems[0].Index;
+            if(0 == questIndex) return;
+
+            LBA2Quest q = quests.quests[questIndex];
+
+            OffsetValue ov = new OffsetValue(q.memoryOffset, ushort.Parse(txtValue.Text));
+            quests.quests[questIndex].subquests = addNewSubitem(quests.quests[questIndex], ov);
+            load(false);
         }
     }
 

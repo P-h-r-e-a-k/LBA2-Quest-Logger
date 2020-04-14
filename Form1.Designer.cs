@@ -48,6 +48,7 @@
             this.lblOffset = new System.Windows.Forms.Label();
             this.lvlValue = new System.Windows.Forms.Label();
             this.txtValue = new System.Windows.Forms.TextBox();
+            this.btnAdd = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnLoad
@@ -186,7 +187,7 @@
             // 
             // btnDebug
             // 
-            this.btnDebug.Location = new System.Drawing.Point(198, 358);
+            this.btnDebug.Location = new System.Drawing.Point(198, 346);
             this.btnDebug.Name = "btnDebug";
             this.btnDebug.Size = new System.Drawing.Size(75, 23);
             this.btnDebug.TabIndex = 11;
@@ -229,11 +230,22 @@
             this.txtValue.Size = new System.Drawing.Size(100, 20);
             this.txtValue.TabIndex = 15;
             // 
+            // btnAdd
+            // 
+            this.btnAdd.Location = new System.Drawing.Point(198, 371);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(76, 21);
+            this.btnAdd.TabIndex = 16;
+            this.btnAdd.Text = "Add";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(975, 411);
+            this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.txtValue);
             this.Controls.Add(this.lvlValue);
             this.Controls.Add(this.lblOffset);
@@ -251,7 +263,7 @@
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnLoad);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "LBA2 Quest Logger";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -279,6 +291,7 @@
         private System.Windows.Forms.Label lblOffset;
         private System.Windows.Forms.Label lvlValue;
         private System.Windows.Forms.TextBox txtValue;
+        private System.Windows.Forms.Button btnAdd;
     }
 }
 

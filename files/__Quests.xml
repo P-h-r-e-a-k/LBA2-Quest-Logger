@@ -183,15 +183,15 @@
 		<size>1</size>
 		<subquests>
 			<subquest>
-				<name>Not scared away</name>
+				<name>Initial</name>
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Scared away</name>
+				<name>Used meca in shop and grobo left</name>
 				<value>1</value>
 			</subquest>
 			<subquest>
-				<name>Returned</name>
+				<name>Shop keeper returned</name>
 				<value>2</value>
 			</subquest>
 		</subquests>
@@ -535,11 +535,11 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Mr. Paul tells you to visit the wizard Ker'aooc - he knows how to cure dinofly</name>
+				<name>Mr. Paul tells you to visit the wizard Ker'roc - he knows how to cure dinofly</name>
 				<value>1</value>
 			</subquest>
 			<subquest>
-				<name>Ker'aooc house keeper says try school of magic</name>
+				<name>Kero'oc house keeper says try school of magic</name>
 				<value>2</value>
 			</subquest>
 			<subquest>
@@ -653,18 +653,14 @@
 		</subquests>
 	</quest>
 	<quest>
-		<!--Left twinsen house - zoe cutscene: area 31-->
-		<name>Left twinsen house - zoe cutscene: area 31</name>
+		<!--Unknown-->
+		<name>Unknown</name>
 		<memoryOffset>57C7B</memoryOffset>
 		<size>1</size>
 		<subquests>
 			<subquest>
 				<name>New</name>
 				<value>0</value>
-			</subquest>
-			<subquest>
-				<name>Left twinsen house - zoe cutscene: area 31</name>
-				<value>1</value>
 			</subquest>
 		</subquests>
 	</quest>
@@ -689,10 +685,6 @@
 			<subquest>
 				<name>Ferry man to Island of the wannies cut scene</name>
 				<value>3</value>
-			</subquest>
-			<subquest>
-				<name>Mousqibee rebels say queen captured</name>
-				<value>4</value>
 			</subquest>
 		</subquests>
 	</quest>
@@ -844,9 +836,9 @@
 			</subquest>
 		</subquests>
 	</quest>
-	<quest>
-		<!--Getting beaten up: beat all kids?-->
-		<name>Getting beaten up: beat all kids?</name>
+	<!--<quest>-->
+		<!--Left school and got beat up-->
+		<!--<name>Left school and got beat up</name>
 		<memoryOffset>57C8D</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -855,22 +847,22 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Getting beaten up: beat all kids?</name>
+				<name>Got beat up</name>
 				<value>1</value>
 			</subquest>
 			<subquest>
-				<name>Getting beaten up: beat all kids?</name>
-				<value>2</value>
+				<name>After getting beat up?</name>
+				<value>3</value>
 			</subquest>
 			<subquest>
-				<name>Getting beaten up: beat all kids?</name>
+				<name>Left school and got beat up</name>
 				<value>5</value>
 			</subquest>
 		</subquests>
 	</quest>
-	<quest>
-		<!--Getting beaten up: beat all kids?-->
-		<name>Getting beaten up: beat all kids?</name>
+	<quest>-->
+		<!--Left school, after getting beat up-->
+		<!--<name>Left school, after getting beat up</name>
 		<memoryOffset>57C8F</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -879,11 +871,11 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Getting beaten up: beat all kids?</name>
+				<name>Left school, after getting beat up</name>
 				<value>1</value>
 			</subquest>
 		</subquests>
-	</quest>
+	</quest>-->
 	<quest>
 		<!--Funfrock Pizza scene-->
 		<name>Funfrock Pizza scene</name>
@@ -1292,9 +1284,9 @@
 			</subquest>
 		</subquests>
 	</quest>
-	<quest>
-		<!--Killed soldier outside of cell-->
-		<name>Killed soldier outside of cell</name>
+<!--	<quest>-->
+		<!--Otringal Prison guards-->
+<!--		<name>Otringal Prison guards</name>
 		<memoryOffset>57CA3</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -1303,47 +1295,31 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Killed soldier outside of cell</name>
+				<name>Killed cell guard</name>
 				<value>1</value>
 			</subquest>
 			<subquest>
-				<name>Killed soldier above mousquibee cell</name>
+				<name>Killed other guard - above mosquibee cell</name>
 				<value>5</value>
 			</subquest>
 			<subquest>
-				<name>Killed stationary guard upstairs by alarm button and desk</name>
+				<name>Killed standing guard in corner</name>
 				<value>7</value>
 			</subquest>
 			<subquest>
-				<name>Re-entered cell area, didn't kill three guards</name>
-				<value>8</value>
+				<name>Killed guard down slope in corner - killed all inner guards</name>
+				<value>15</value>
 			</subquest>
 			<subquest>
-				<name>Killed guard in cells downstairs - killed all inner guards</name>
+				<name>Re-entered cell area, alarm sounds</name>
 				<value>16</value>
 			</subquest>
 			<subquest>
-				<name>Re-entered cell area after killing all guards, respawned</name>
+				<name>Re-entered cell area - after defeating "3 guards"</name>
 				<value>17</value>
 			</subquest>
-			<subquest>
-				<name>re-entered, guards respawned</name>
-				<value>18</value>
-			</subquest>
-			<subquest>
-				<name>Re-killed alarm guard</name>
-				<value>20</value>
-			</subquest>
-			<subquest>
-				<name>Re-entered cells again, alarm guard spawned - after killing single guard 1/3</name>
-				<value>21</value>
-			</subquest>
-			<subquest>
-				<name>Re-entered cells again</name>
-				<value>22</value>
-			</subquest>
 		</subquests>
-	</quest>
+	</quest>-->
 	<quest>
 		<!--Moving platform in Bu (read only)-->
 		<name>Moving platform in Bu (read only)</name>
@@ -1402,14 +1378,6 @@
 				<name>Killed scientist at top of tower after landing on Otringal as wizard</name>
 				<value>5</value>
 			</subquest>
-			<subquest>
-				<name>Killed Sup at top of tower when returning from Otringal to Citadel</name>
-				<value>13</value>
-			</subquest>
-			<subquest>
-				<name>Killed last scientist Otringal &gt; Citadel, by itineray token</name>
-				<value>15</value>
-			</subquest>
 		</subquests>
 	</quest>
 	<quest>
@@ -1437,10 +1405,6 @@
 			<subquest>
 				<name>New</name>
 				<value>0</value>
-			</subquest>
-			<subquest>
-				<name>Started new game- zoe cutscene</name>
-				<value>1</value>
 			</subquest>
 			<subquest>
 				<name>Landed at Dome of slate</name>
@@ -1667,28 +1631,20 @@
 				<value>1</value>
 			</subquest>
 			<subquest>
-				<name>Taking right elevator up</name>
-				<value>2</value>
-			</subquest>
-			<subquest>
 				<name>Took elevator back up from undergas</name>
 				<value>3</value>
 			</subquest>
 		</subquests>
 	</quest>
 	<quest>
-		<!--Citadel > Desert island ferry cut scene -->
-		<name>Citadel &gt; Desert island ferry cut scene </name>
+		<!--Unknown-->
+		<name>Unknown</name>
 		<memoryOffset>57CCB</memoryOffset>
 		<size>1</size>
 		<subquests>
 			<subquest>
 				<name>New</name>
 				<value>0</value>
-			</subquest>
-			<subquest>
-				<name>Citadel &gt; Desert island ferry cut scene </name>
-				<value>2</value>
 			</subquest>
 		</subquests>
 	</quest>
@@ -1844,9 +1800,9 @@
 			</subquest>
 		</subquests>
 	</quest>
-	<quest>
-		<!--Entering area 31 again? Heading towards Zoe, Zoe by car-->
-		<name>Entering area 31 again? Heading towards Zoe, Zoe by car</name>
+	<!--<quest>-->
+		<!--Not sure - Talking to zoe - by graduating school of magic-->
+	<!--	<name>Not sure - Talking to zoe - by graduating school of magic</name>
 		<memoryOffset>57CE1</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -1855,11 +1811,11 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Entering area 31 again? Heading towards Zoe, Zoe by car</name>
+				<name>Not sure - Talking to zoe - by graduating school of magic</name>
 				<value>1</value>
 			</subquest>
 		</subquests>
-	</quest>
+	</quest>-->
 	<quest>
 		<!--Gazogem refinery: Opened life container-->
 		<name>Gazogem refinery: Opened life container</name>
@@ -1892,9 +1848,9 @@
 			</subquest>
 		</subquests>
 	</quest>
-	<quest>
-		<!--boarded liotine for first ttime-->
-		<name>boarded liotine for first ttime</name>
+	<!--<quest>
+		Boarded liotine for first time going to Celebration Island
+		<name>Boarded liotine for first time going to Celebration Island</name>
 		<memoryOffset>57CE7</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -1903,11 +1859,11 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>boarded liotine for first ttime</name>
+				<name>Boarded liotine for first time going to Celebration Island</name>
 				<value>1</value>
 			</subquest>
 		</subquests>
-	</quest>
+	</quest>-->
 	<quest>
 		<!--Spoke to otringal guy-->
 		<name>Spoke to otringal guy</name>
@@ -2043,10 +1999,6 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Got crystal from Celebration island</name>
-				<value>1</value>
-			</subquest>
-			<subquest>
 				<name>Received lazer pistol</name>
 				<value>2</value>
 			</subquest>
@@ -2056,9 +2008,9 @@
 			</subquest>
 		</subquests>
 	</quest>
-	<quest>
-		<!--Entering area 57 (Otringal port)-->
-		<name>Entering area 57 (Otringal port)</name>
+	<!--<quest>
+		Back stage of bar Kiss enters
+		<name>Back stage of bar Kiss enters</name>
 		<memoryOffset>57CF9</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -2067,17 +2019,21 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Entered 86 (back stage in bar) - singer mentions imperial hotel, kiss entered</name>
+				<name>Back stage of bar Kiss enters</name>
 				<value>1</value>
 			</subquest>
 			<subquest>
-				<name>Entering area 57 (Otringal port)</name>
+				<name>Either kiss or hole fully open</name>
 				<value>2</value>
 			</subquest>
+			<subquest>
+				<name>unknown</name>
+				<value>3</value>
+			</subquest>
 		</subquests>
-	</quest>
+	</quest>-->
 	<quest>
-		<!--Johnny rocket position-->
+		<!--Johnny rocket entered his room?-->
 		<name>Johnny rocket position</name>
 		<memoryOffset>57CFB</memoryOffset>
 		<size>1</size>
@@ -2092,9 +2048,9 @@
 			</subquest>
 		</subquests>
 	</quest>
-	<quest>
-		<!--Otringal: Left cell block-->
-		<name>Otringal: Left cell block</name>
+	<!--<quest>
+		Otrignal: Outside with robot
+		<name>Otrignal: Outside with robot</name>
 		<memoryOffset>57CFD</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -2103,11 +2059,11 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Otringal: Left cell block</name>
+				<name>Otrignal: Outside with robot</name>
 				<value>1</value>
 			</subquest>
 		</subquests>
-	</quest>
+	</quest>-->
 	<quest>
 		<!--Mine Gem: Bit values?-->
 		<name>Mine Gem: Bit values?</name>
@@ -2125,10 +2081,6 @@
 			<subquest>
 				<name>Gem near lava and grabber: bit 1</name>
 				<value>3</value>
-			</subquest>
-			<subquest>
-				<name>Gem near wannie and machine (Second gem)</name>
-				<value>4</value>
 			</subquest>
 			<subquest>
 				<name>Gem near Wannie and grabber: bit 4</name>
@@ -2183,10 +2135,6 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>gem near rope</name>
-				<value>1</value>
-			</subquest>
-			<subquest>
 				<name>Mousqibee gem near ferry man song spot: bit 2</name>
 				<value>2</value>
 			</subquest>
@@ -2205,10 +2153,6 @@
 			<subquest>
 				<name>New</name>
 				<value>0</value>
-			</subquest>
-			<subquest>
-				<name>Gem by bridge only</name>
-				<value>1</value>
 			</subquest>
 			<subquest>
 				<name>Gem between beehive and boss area: bit 1</name>
@@ -2267,10 +2211,6 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Gem near fire and red crystal</name>
-				<value>1</value>
-			</subquest>
-			<subquest>
 				<name>Gem: bit 2</name>
 				<value>2</value>
 			</subquest>
@@ -2300,9 +2240,9 @@
 			</subquest>
 		</subquests>
 	</quest>
-	<quest>
-		<!--Landed on turtle-->
-		<name>Landed on turtle</name>
+	<!--<quest>
+		Taking turtle to pearl cave
+		<name>Taking turtle to pearl cave</name>
 		<memoryOffset>57D11</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -2311,11 +2251,11 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Landed on turtle</name>
+				<name>Taking turtle to pearl cave</name>
 				<value>1</value>
 			</subquest>
 		</subquests>
-	</quest>
+	</quest>-->
 	<quest>
 		<!--Otringal tourist shop: Wizard diploma-->
 		<name>Otringal tourist shop: Wizard diploma</name>
@@ -2465,8 +2405,8 @@
 		</subquests>
 	</quest>
 	<quest>
-		<!--Spoke to Grand rector about pearl and informed of sendells ball and informed of location-->
-		<name>Spoke to Grand rector about pearl and informed of sendells ball and informed of location</name>
+		<!--Unknown-->
+		<name>Unknown</name>
 		<memoryOffset>57D25</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -2474,25 +2414,17 @@
 				<name>New</name>
 				<value>0</value>
 			</subquest>
-			<subquest>
-				<name>Spoke to Grand rector about pearl and informed of sendells ball and informed of location</name>
-				<value>1</value>
-			</subquest>
 		</subquests>
 	</quest>
 	<quest>
-		<!--Asked grand rector where pearl was and told it's in clam-->
-		<name>Asked grand rector where pearl was and told it's in clam</name>
+		<!--Unknown-->
+		<name>Unknown</name>
 		<memoryOffset>57D27</memoryOffset>
 		<size>1</size>
 		<subquests>
 			<subquest>
 				<name>New</name>
 				<value>0</value>
-			</subquest>
-			<subquest>
-				<name>Asked grand rector where pearl was and told it's in clam</name>
-				<value>1</value>
 			</subquest>
 		</subquests>
 	</quest>
@@ -2656,9 +2588,9 @@
 			</subquest>
 		</subquests>
 	</quest>
-	<quest>
-		<!--Left twinsen house - zoe cutscene: area 31-->
-		<name>Left twinsen house - zoe cutscene: area 31</name>
+	<!--<quest>
+		Left Twinsens house
+		<name>Left Twinsens house</name>
 		<memoryOffset>57D3B</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -2667,14 +2599,14 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Left twinsen house - zoe cutscene: area 31</name>
+				<name>Left Twinsens house</name>
 				<value>1</value>
 			</subquest>
 		</subquests>
-	</quest>
-	<quest>
-		<!--Left twinsen house - zoe cutscene: area 31-->
-		<name>Left twinsen house - zoe cutscene: area 31</name>
+	</quest>-->
+	<!--<quest>
+		Left Twinsens house
+		<name>Left Twinsens house</name>
 		<memoryOffset>57D3D</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -2683,14 +2615,14 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Left twinsen house - zoe cutscene: area 31</name>
+				<name>Left Twinsens house</name>
 				<value>1</value>
 			</subquest>
 		</subquests>
-	</quest>
-	<quest>
-		<!--Alien cut scene after lighthouse-->
-		<name>Alien cut scene after lighthouse</name>
+	</quest>-->
+	<!--<quest>
+		Took ferry to Citadel
+		<name>Took ferry to Citadel</name>
 		<memoryOffset>57D3F</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -2699,14 +2631,14 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Alien cut scene after lighthouse</name>
+				<name>Took ferry to Citadel</name>
 				<value>1</value>
 			</subquest>
 		</subquests>
-	</quest>
-	<quest>
-		<!--Arrived at desert island: 41-->
-		<name>Arrived at desert island: 41</name>
+	</quest>-->
+	<!--<quest>
+		Arrived at desert island first time
+		<name>Arrived at desert island first time</name>
 		<memoryOffset>57D41</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -2715,11 +2647,11 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Arrived at desert island: 41</name>
+				<name>Arrived at desert island first time</name>
 				<value>1</value>
 			</subquest>
 		</subquests>
-	</quest>
+	</quest>-->
 	<quest>
 		<!--Unknown-->
 		<name>Unknown</name>
@@ -2792,9 +2724,9 @@
 			</subquest>
 		</subquests>
 	</quest>
-	<quest>
-		<!--Entered area 2F-->
-		<name>Entered area 2F</name>
+	<!--<quest>
+		Entered citadel hills
+		<name>Entered citadel hills</name>
 		<memoryOffset>57D4D</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -2803,24 +2735,20 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Entered area 2F</name>
+				<name>Entered citadel hills</name>
 				<value>1</value>
 			</subquest>
 		</subquests>
-	</quest>
+	</quest>-->
 	<quest>
-		<!--Attacled guard on Otringal tower when returning to citadel-->
-		<name>Attacled guard on Otringal tower when returning to citadel</name>
+		<!--Unknown-->
+		<name>Unknown</name>
 		<memoryOffset>57D4F</memoryOffset>
 		<size>1</size>
 		<subquests>
 			<subquest>
 				<name>New</name>
 				<value>0</value>
-			</subquest>
-			<subquest>
-				<name>Attacled guard on Otringal tower when returning to citadel</name>
-				<value>1</value>
 			</subquest>
 		</subquests>
 	</quest>
@@ -2852,9 +2780,9 @@
 			</subquest>
 		</subquests>
 	</quest>
-	<quest>
-		<!--Triggered both teleporters - opened hole-->
-		<name>Triggered both teleporters - opened hole</name>
+	<!--<quest>
+		Funfrock scene 3: Broke both teleporters and unlocked hole
+		<name>Funfrock scene 3: Broke both teleporters and unlocked hole</name>
 		<memoryOffset>57D55</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -2863,14 +2791,14 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Triggered both teleporters - opened hole</name>
+				<name>Funfrock scene 3: Broke both teleporters and unlocked hole</name>
 				<value>1</value>
 			</subquest>
 		</subquests>
-	</quest>
-	<quest>
-		<!--Triggered both teleporters - opened hole-->
-		<name>Triggered both teleporters - opened hole</name>
+	</quest>-->
+	<!--<quest>
+		Funfrock scene 3: Broke both teleporters and unlocked hole
+		<name>Funfrock scene 3: Broke both teleporters and unlocked hole</name>
 		<memoryOffset>57D57</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -2879,11 +2807,11 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Triggered both teleporters - opened hole</name>
+				<name>Funfrock scene 3: Broke both teleporters and unlocked hole</name>
 				<value>1</value>
 			</subquest>
 		</subquests>
-	</quest>
+	</quest>-->
 	<quest>
 		<!--Unknown-->
 		<name>Unknown</name>
@@ -2932,9 +2860,9 @@
 			</subquest>
 		</subquests>
 	</quest>
-	<quest>
-		<!--Citadel > Desert island ferry cut scene -->
-		<name>Citadel &gt; Desert island ferry cut scene </name>
+	<!--<quest>
+		Desert island, entered middle of town
+		<name>Desert island, entered middle of town</name>
 		<memoryOffset>57D5F</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -2943,14 +2871,14 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Citadel &gt; Desert island ferry cut scene </name>
+				<name>Desert island, entered middle of town</name>
 				<value>1</value>
 			</subquest>
 		</subquests>
-	</quest>
-	<quest>
-		<!--Desert: Entered area 3E-->
-		<name>Desert: Entered area 3E</name>
+	</quest>-->
+	<!--<quest>
+		Desert Island near school of magic
+		<name>Desert Island near school of magic</name>
 		<memoryOffset>57D61</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -2959,14 +2887,14 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Desert: Entered area 3E</name>
+				<name>Desert Island near school of magic</name>
 				<value>1</value>
 			</subquest>
 		</subquests>
-	</quest>
-	<quest>
-		<!--Desert: Entered area 3E-->
-		<name>Desert: Entered area 3E</name>
+	</quest>-->
+	<!--<quest>
+		Desert Island: Near flower
+		<name>Desert Island: Near flower</name>
 		<memoryOffset>57D63</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -2975,14 +2903,14 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Desert: Entered area 3E</name>
+				<name>Desert Island: Near flower</name>
 				<value>1</value>
 			</subquest>
 		</subquests>
-	</quest>
-	<quest>
-		<!--Arrived at desert island: 41-->
-		<name>Arrived at desert island: 41</name>
+	</quest>-->
+	<!--<quest>
+		arrived at desert island first time
+		<name>arrived at desert island first time</name>
 		<memoryOffset>57D65</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -2991,14 +2919,14 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Arrived at desert island: 41</name>
+				<name>arrived at desert island first time</name>
 				<value>1</value>
 			</subquest>
 		</subquests>
-	</quest>
-	<quest>
-		<!--Entered area 43-->
-		<name>Entered area 43</name>
+	</quest>-->
+	<!--<quest>
+		In desert near Bu
+		<name>In desert near Bu</name>
 		<memoryOffset>57D67</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -3007,14 +2935,14 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Entered area 43</name>
+				<name>In desert near Bu</name>
 				<value>1</value>
 			</subquest>
 		</subquests>
-	</quest>
-	<quest>
-		<!--Arrived at desert island: 41-->
-		<name>Arrived at desert island: 41</name>
+	</quest>-->
+	<!--<quest>
+		arrived at desert island first time
+		<name>arrived at desert island first time</name>
 		<memoryOffset>57D69</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -3023,14 +2951,14 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Arrived at desert island: 41</name>
+				<name>arrived at desert island first time</name>
 				<value>1</value>
 			</subquest>
 		</subquests>
-	</quest>
-	<quest>
-		<!--Arrived at desert island: 41-->
-		<name>Arrived at desert island: 41</name>
+	</quest>-->
+	<!--<quest>
+		arrived at desert island first time
+		<name>arrived at desert island first time</name>
 		<memoryOffset>57D6B</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -3039,14 +2967,14 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Arrived at desert island: 41</name>
+				<name>arrived at desert island first time</name>
 				<value>1</value>
 			</subquest>
 		</subquests>
-	</quest>
-	<quest>
-		<!--Arrived at desert island: 41-->
-		<name>Arrived at desert island: 41</name>
+	</quest>-->
+	<!--<quest>
+		arrived at desert island first time
+		<name>arrived at desert island first time</name>
 		<memoryOffset>57D6D</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -3055,14 +2983,14 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Arrived at desert island: 41</name>
+				<name>arrived at desert island first time</name>
 				<value>1</value>
 			</subquest>
 		</subquests>
-	</quest>
-	<quest>
-		<!--Entered area 43-->
-		<name>Entered area 43</name>
+	</quest>-->
+	<!--<quest>
+		Running around in the desert - near Bu
+		<name>Running around in the desert - near Bu</name>
 		<memoryOffset>57D6F</memoryOffset>
 		<size>1</size>
 		<subquests>
@@ -3071,11 +2999,11 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Entered area 43</name>
+				<name>Running around in the desert - near Bu</name>
 				<value>1</value>
 			</subquest>
 		</subquests>
-	</quest>
+	</quest>-->
 	<quest>
 		<!--Mine gem 3 - near cloverbox-->
 		<name>Mine gem 3 - near cloverbox</name>
@@ -3631,26 +3559,6 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Ferry movie playing to desert island</name>
-				<value>16</value>
-			</subquest>
-			<subquest>
-				<name>Citadel &gt; Desert island ferry cut scene</name>
-				<value>48</value>
-			</subquest>
-			<subquest>
-				<name>Baldino/Twinsen going to ship movie</name>
-				<value>52</value>
-			</subquest>
-			<subquest>
-				<name>undergas elevator movie</name>
-				<value>53</value>
-			</subquest>
-			<subquest>
-				<name>undergas elevator going up (left side)</name>
-				<value>55</value>
-			</subquest>
-			<subquest>
 				<name>Bu roller coaster Movie playing</name>
 				<value>128</value>
 			</subquest>
@@ -3854,10 +3762,6 @@
 				<name>Collected</name>
 				<value>0</value>
 			</subquest>
-			<subquest>
-				<name>Collected</name>
-				<value>1</value>
-			</subquest>
 		</subquests>
 	</quest>
 	<quest>
@@ -3884,30 +3788,26 @@
 			</subquest>
 		</subquests>
 	</quest>
-	<quest>
-		<!--Took ferry to Citadel-->
-		<name>Took ferry to Citadel</name>
+	<!--<quest>
+		Returned to citadel
+		<name>Returned to citadel</name>
 		<memoryOffset>57DE5</memoryOffset>
 		<size>1</size>
 		<subquests>
 			<subquest>
-				<name>Arrived back at Citadel island with Dinofly</name>
+				<name>Landed on desert island with dinofly</name>
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Took dinofly to Oasis in desert from Citadel</name>
+				<name>arrived at desert island via ferry</name>
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Took ferry to Citadel</name>
+				<name>Arrived at desert island via ferry</name>
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Arrived back at desert island</name>
-				<value>0</value>
-			</subquest>
-			<subquest>
-				<name>Took ferry to Citadel</name>
+				<name>Returned to citadel</name>
 				<value>0</value>
 			</subquest>
 			<subquest>
@@ -3915,11 +3815,11 @@
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>yellow taxi to Francos</name>
+				<name>Took yellow taxi to Island of the Francos after getting working pistol</name>
 				<value>1</value>
 			</subquest>
 		</subquests>
-	</quest>
+	</quest>-->
 	<quest>
 		<!--Unknown-->
 		<name>Unknown</name>

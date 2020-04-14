@@ -1386,28 +1386,72 @@
 	</quest>
 	<quest>
 		<!--Killing people at top of tower after landing on Otringal as wizard-->
-		<name>Killing people at top of tower after landing on Otringal as wizard</name>
+		<name>Otringal: Killing people, top of spaceport tower</name>
 		<memoryOffset>57CAB</memoryOffset>
 		<size>1</size>
 		<subquests>
 			<subquest>
-				<name>New</name>
+				<name>Nobody</name>
 				<value>0</value>
 			</subquest>
 			<subquest>
-				<name>Killed soldier at top of tower after landing on Otringal as wizard</name>
+				<name>Left Scientist</name>
+				<value>1</value>
+			</subquest>
+			<subquest>
+				<name>Right Scientist</name>
+				<value>2</value>
+			</subquest>
+			<subquest>
+				<name>Both Scientists</name>
+				<value>3</value>
+			</subquest>
+			<subquest>
+				<name>Soldier</name>
 				<value>4</value>
 			</subquest>
 			<subquest>
-				<name>Killed scientist at top of tower after landing on Otringal as wizard</name>
+				<name>Soldier + Left Scientist</name>
 				<value>5</value>
 			</subquest>
 			<subquest>
-				<name>Killed Sup at top of tower when returning from Otringal to Citadel</name>
+				<name>Soldier + Right Scientist</name>
+				<value>6</value>
+			</subquest>
+			<subquest>
+				<name>Soldier + Both Scientist</name>
+				<value>7</value>
+			</subquest>
+			<subquest>
+				<name>Sup</name>
+				<value>8</value>
+			</subquest>
+			<subquest>
+				<name>Sup + Left Scientist</name>
+				<value>9</value>
+			</subquest>
+			<subquest>
+				<name>Sup + Right Scientist</name>
+				<value>10</value>
+			</subquest>
+			<subquest>
+				<name>Sup + Both Scientist</name>
+				<value>11</value>
+			</subquest>
+			<subquest>
+				<name>Soldier + Sup</name>
+				<value>12</value>
+			</subquest>
+			<subquest>
+				<name>Soldier + Sup + Left Scientist</name>
 				<value>13</value>
 			</subquest>
 			<subquest>
-				<name>Killed last scientist Otringal &gt; Citadel, by itineray token</name>
+				<name>Soldier + Sup + Right Scientist</name>
+				<value>14</value>
+			</subquest>
+			<subquest>
+				<name>Everybody</name>
 				<value>15</value>
 			</subquest>
 		</subquests>
